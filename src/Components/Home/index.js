@@ -5,7 +5,7 @@ const words = ['Software Engineer','Full-stack Developer', 'Veteran','Freelancer
 
 const Home = () => {
     return  (
-        <div className="home-container">
+        <div id="home" className="home-container">
                 <div className='typed'> 
                     <h1>I'm a <Typed
                                 strings={words}
