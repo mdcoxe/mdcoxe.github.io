@@ -1,12 +1,16 @@
 .home-container {
-    height: 100vh;
+    background: url('../../resources/aurora1.jpg') repeat scroll center center/cover;
+    height: 75vh;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color:  whitesmoke;
+    
+    
 }
 .typed h1{
-
+    font-size: x-large;
     text-transform: uppercase;
     font-weight: bold;
     text-align: left;
@@ -17,16 +21,18 @@
     margin-top: 5px;
     font-size: small;
     letter-spacing: 3px;
-    font-weight: 400;
+    font-weight: bolder;
     text-align: left;
     margin-left: 15%;
+    margin-right: 15%;
     line-height: 17px;
 }
 .home-brand {
+    font-weight: bold;
     text-align: justify; text-justify: inter-word;
     line-height: 24px;
-    width: 50%;
+    width: 40%;
     align-self: center;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
