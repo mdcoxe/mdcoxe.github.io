@@ -1,6 +1,6 @@
 .home-container {
     background: url('../../resources/aurora1.jpg') repeat scroll center center/cover;
-    height: 75vh;
+    height: 95vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -29,10 +29,13 @@
 }
 .home-brand {
     font-weight: bold;
-    text-align: justify; text-justify: inter-word;
+    text-align: justify; 
+    text-justify: inter-word;
     line-height: 24px;
     width: 40%;
     align-self: center;
+    padding: 15px;
     margin-left: 10%;
     margin-top: 5%;
+    background: rgba(76, 175, 80, 0.5)
 }

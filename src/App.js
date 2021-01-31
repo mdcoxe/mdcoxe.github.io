@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './Components/Navbar';
+import Navigate from './Components/Navbar';
 import Home from './Components/Home';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
@@ -11,7 +11,7 @@ import Contact from './Components/Contact';
 function App() {  
   return (
     <div className="App">
-      <Navbar />
+      <Navigate />
       <Home />
       <Projects />
       <Skills />
