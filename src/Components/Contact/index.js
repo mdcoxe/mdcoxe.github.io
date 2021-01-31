@@ -1,8 +1,8 @@
-import './style.css';
+import './styles.css';
 
 const Contact = () => {
 
-    return  <div className="container">
+    return  <div className="contact-container">
                Contact 
             </div>
 }
