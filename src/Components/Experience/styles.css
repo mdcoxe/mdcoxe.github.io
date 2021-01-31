@@ -1,6 +1,41 @@
 .xp-container{
+    scroll-snap-align: center;
+    letter-spacing: 4px;
     position: relative;
     width: 100%;
-    background-color:  gray;
-    height: 75vh;
+    margin: 0 auto 50px;
+    padding: 10%;
+    height: 100vh;
+    
+}
+.xp-container h1 {
+    margin-bottom: 5%;
+}
+.resume {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.linkedin {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+.linkedin-icon {
+    color: #0B66C2;
+}
+.github {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+.github-icon {
+    color: black;
 }
