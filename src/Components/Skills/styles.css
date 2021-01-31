@@ -1,5 +1,6 @@
 .skills-container {
-    letter-spacing: 4px;;
+    scroll-snap-align: center;
+    letter-spacing: 4px;
     position: relative;
     width: 70%;
     margin: 0 auto;

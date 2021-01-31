@@ -1,6 +1,7 @@
 .projects-container {
+    scroll-snap-align: center;
     position: relative;
     width: 100%;
-    background-color:  gray;
+  
     height: 75vh;
 }
