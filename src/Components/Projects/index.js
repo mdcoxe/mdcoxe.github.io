@@ -2,7 +2,7 @@ import './styles.css';
 
 const Projects = () => {
 
-    return  <div className="container">
+    return  <div id="projects" className="projects-container">
                 Projects
             </div>
 }
