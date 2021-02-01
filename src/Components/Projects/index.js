@@ -29,7 +29,6 @@ const Projects = () => {
                                 </Card.Link>
                             </Card.Body>
                         </Card>
-                       
                         <Card className='card-card'>
                             <Card.Img className='card-img' variant="top" src="/assets/honeybadgersmall.png" />
                             <Card.Body className='card-body'>
@@ -49,7 +48,6 @@ const Projects = () => {
                                 </Card.Link>
                             </Card.Body>
                         </Card> 
-                 
                         <Card className='card-card'>
                             <Card.Img className='card-img' variant="top" src="/assets/astrowxsmall.png" />
                             <Card.Body className='card-body'>
@@ -71,7 +69,7 @@ const Projects = () => {
                         </Card> 
                     <br/>
                         <Card className='card-card'>
-                            <Card.Img className='card-img' variant="top" src="/assets/expkittensmall.png" />
+                            <Card.Img className='card-img' variant="top" src="/assets/trittilosmall.png" />
                             <Card.Body className='card-body'>
                                 <Card.Title className='card-title'>
                                     Tweetr/Trittilo
@@ -92,58 +90,25 @@ const Projects = () => {
                                 </Card.Link>
                             </Card.Body>
                         </Card>
-                      
                         <Card className='card-card'>
-                            <Card.Img className='card-img' variant="top" src="/assets/honeybadgersmall.png" />
+                            <Card.Img className='card-img' variant="top" src="/assets/scrumpsmall.png" />
                             <Card.Body className='card-body'>
                                 <Card.Title className='card-title'>
-                                    Honey Badger Fat-Tire Bike Shop
+                                    Scrumptious
                                 </Card.Title>
                                 <hr/>
                                 <Card.Text className='card-text'>
-                                    Basic e-commerce store, using NodeJS, Express, MongoDB, and RESTful routing.
+                                    Full-stack, React Native, MERN stack, recipe sharing app. Built in authentication and favoriting functionality to save found recipes to the user account.
                                 </Card.Text>
                                 <hr/>
-                                <Card.Link className='link' href='https://github.com/mdcoxe/honey-badger-fat-tire-bikes'>
-                                    Deployed
+                                <Card.Link className='link' >
+                                    Not Deployed Yet
                                 </Card.Link>
-                                <Card.Link className='link' href='https://honey-badger-bikes.herokuapp.com/fattire/'>
+                                <Card.Link className='link' href='https://github.com/mdcoxe/recipe-share-app'>
                                     GitHub
                                 </Card.Link>
                             </Card.Body>
                         </Card> 
-                   
-               
-                    {/* <Card style={{ width: '50%', marginLeft: '16px' }}>
-                        <Card.Img variant="top" src="/assets/honeybadgersmall.png" />
-                        <Card.Body>
-                            <Card.Title>Honey Badger Fat-Tire Bike Shop</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>  
-                    <Card className='p-card' style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="/assets/trittilosmall.png" />
-                        <Card.Body>
-                            <Card.Title>Trittilo/Tweetr</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>  
-                    <Card className='p-card' style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="/assets/astrowxsmall.png" />
-                        <Card.Body>
-                            <Card.Title>Astro Wx</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>   */}
                 </CardDeck>
             </div>              
         </div>
@@ -151,8 +116,3 @@ const Projects = () => {
 }
 
 export default Projects;
-
-// 
-// https://astro-wx.herokuapp.com/ 
-// https://tweetr-frontend.herokuapp.com/Feed
-// https://tweetr-backend.herokuapp.com/replies
