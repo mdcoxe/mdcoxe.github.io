@@ -38,3 +38,8 @@
     margin-top: 5%;
     background: rgba(76, 175, 80, 0.5)
 }
+@media only screen and (max-width: 600px) {
+    .home-brand {
+      width: 90%;
+    }
+  }
