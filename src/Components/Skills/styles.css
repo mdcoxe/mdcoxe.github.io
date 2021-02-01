@@ -5,10 +5,18 @@
     width: 100%;
     margin: 0 auto;
     padding: 10%;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #182525;
     color: white;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
 }
+.skills-container:hover {
+    background-color: green;
+    /* cursor: pointer; */
+  }
 .skills-heading {
     text-transform: uppercase;
     text-align: center;
@@ -22,3 +30,4 @@
     text-align: left;
     margin-left: 20%;
 }
+

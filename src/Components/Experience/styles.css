@@ -17,20 +17,27 @@
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 5%;
-    color: darkslategray
+    color: darkslategray;
 }
 .box{
     align-self: center;
 }
 .resume {
-    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
     margin: 20px;
     padding: 20px;
-    background-color: rgba(21, 51, 22, 0.7)
+    background-color: rgba(21, 51, 22, 0.7);
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+.resume:hover{
+    background-color: #9FF130;
+    color: darkslategray;
 }
 .linkedin {
     display: flex;
@@ -38,7 +45,15 @@
     justify-content: space-around;
     margin: 20px;
     padding: 20px;
-    background-color: rgba(21, 51, 22, 0.7)
+    background-color: rgba(21, 51, 22, 0.7);
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+.linkedin:hover{
+    background-color: #9FF130;
+    color: darkslategray;
 }
 .linkedin-icon {
     color: #0B66C2;
@@ -49,7 +64,15 @@
     justify-content: space-around;
     margin: 20px;
     padding: 20px;
-    background-color: rgba(21, 51, 22, 0.7)
+    background-color: rgba(21, 51, 22, 0.7);
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+.github:hover{
+    background-color: #9FF130;
+    color: darkslategray;
 }
 .github-icon {
     color: black;
