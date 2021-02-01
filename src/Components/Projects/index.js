@@ -40,10 +40,10 @@ const Projects = () => {
                                     Basic e-commerce store, using NodeJS, Express, MongoDB, and RESTful routing.
                                 </Card.Text>
                                 <hr/>
-                                <Card.Link className='link' href='https://github.com/mdcoxe/honey-badger-fat-tire-bikes'>
+                                <Card.Link className='link' href='https://honey-badger-bikes.herokuapp.com/fattire/'>
                                     Deployed
                                 </Card.Link>
-                                <Card.Link className='link' href='https://honey-badger-bikes.herokuapp.com/fattire/'>
+                                <Card.Link className='link' href='https://github.com/mdcoxe/honey-badger-fat-tire-bikes'>
                                     GitHub
                                 </Card.Link>
                             </Card.Body>
@@ -59,10 +59,10 @@ const Projects = () => {
                                     Full-Stack MERN app, integrating multiple API’s to increase chances of viewing Aurora Borealis and other astronomical events. 
                                 </Card.Text>
                                 <hr/>
-                                <Card.Link className='link' href='https://github.com/mdcoxe/Astro-Wx'>
+                                <Card.Link className='link' href='https://astro-wx.herokuapp.com/'>
                                     Deployed
                                 </Card.Link>
-                                <Card.Link className='link' href='https://astro-wx.herokuapp.com/'>
+                                <Card.Link className='link' href='https://github.com/mdcoxe/Astro-Wx'>
                                     GitHub
                                 </Card.Link>
                             </Card.Body>
