@@ -12,7 +12,7 @@ const Home = () => {
                                 typeSpeed={100}
                                 backSpeed={50}
                                 loop='true'
-                            />
+                                />
                     </h1> 
                 </div>
                 <p className='home-p'>
