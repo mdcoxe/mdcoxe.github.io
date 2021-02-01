@@ -8,42 +8,56 @@ const Experience = () => {
 
     return (
         <div id="experience" className="xp-container">
-          <div className="skew"></div>
-            <h1>Experience</h1>
+            <h1 className='xp-heading'>Experience</h1>
          
             <div className="resume">
+                <div className="box">
+
+
                 <p>
                     Download and view my resume
                 </p>
+                </div>
+                <div className="box">
+
                 <a href="/MichaelCoxeResume.pdf" download>
                     <img alt='resume thumbnail' src="/resumeimg.png"/>
                 </a>
+                </div>
             </div>
             <hr/>
             <div className="linkedin">
-                <a href="http://linkedin.com/in/michaelcoxe" target='blank'>
-                    <FontAwesomeIcon
-                        icon={faLinkedin}
-                        className='xp-icon linkedin-icon'
-                        size="6x"
-                        />
-                </a>
-                <p>
-                    Connect with me on LinkedIn
-                </p>
+                <div className="box">
+                    <a href="http://linkedin.com/in/michaelcoxe" target='blank'>
+                        <FontAwesomeIcon
+                            icon={faLinkedin}
+                            className='xp-icon linkedin-icon'
+                            size="8x"
+                            />
+                    </a>
+                </div>
+                <div className="box">
+                    <p>
+                        Connect with me on LinkedIn
+                    </p>
+                </div>
             </div>
             <hr/>
             <div className="github">
-                <p>
-                    Check-out my repositories on Github
-                </p>
-                <a href="http://github.com/mdcoxe" target='blank'>
-                    <FontAwesomeIcon
-                        icon={faGithub}
-                        className='xp-icon github-icon'
-                        size='6x'
-                        />
-                </a>
+                <div className="box">
+                    <p>
+                        Check-out my repositories on Github
+                    </p>
+                </div>
+                <div className="box">
+                    <a href="http://github.com/mdcoxe" target='blank'>
+                        <FontAwesomeIcon
+                            icon={faGithub}
+                            className='xp-icon github-icon'
+                            size='8x'
+                            />
+                    </a>
+                </div>
             </div>
        
         </div>      
