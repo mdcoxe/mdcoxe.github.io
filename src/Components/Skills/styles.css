@@ -6,6 +6,8 @@
     margin: 0 auto;
     padding: 10%;
     height: 100vh;
+    background-color: #182525;
+    color: white;
 }
 .skills-heading {
     text-transform: uppercase;
