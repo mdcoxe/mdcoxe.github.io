@@ -4,7 +4,7 @@ const Skills = () => {
 
     return  (
     
-        <div id="skills" className="skills-container">
+        <div id="skills" className="skills-container skills-box">
             <h1 className='skills-heading'>Skills</h1>
             <h2 className='skills-title'>Languages:</h2>
             <p className="skills-text">Javascript  |  HTML  |  CSS  |  Ruby  |  Markdown</p>
