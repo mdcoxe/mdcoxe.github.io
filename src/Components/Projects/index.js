@@ -1,6 +1,6 @@
 import './styles.css';
 import Card from 'react-bootstrap/Card';
-import { Row, Col, Container } from 'react-bootstrap';
+import { CardDeck } from 'react-bootstrap';
 
 const Projects = () => {
     return  (
@@ -8,9 +8,8 @@ const Projects = () => {
             <h1 className='project-heading'> 
                 Projects
             </h1>
-            <Container  className="project-cards">
-               <Row>
-                   <Col sm>
+            <div sm className="project-cards">
+                <CardDeck xl className='project-cards'>
                         <Card className='card-card'>
                             <Card.Img className='card-img' variant="top" src="/assets/expkittensmall.png" />
                             <Card.Body className='card-body'>
@@ -26,12 +25,11 @@ const Projects = () => {
                                     Deployed
                                 </Card.Link>
                                 <Card.Link className='link' href='https://github.com/mdcoxe/explodingkittens'>
-                                    GitHub Repo
+                                    GitHub
                                 </Card.Link>
                             </Card.Body>
                         </Card>
-                    </Col>
-                    <Col sm>    
+                       
                         <Card className='card-card'>
                             <Card.Img className='card-img' variant="top" src="/assets/honeybadgersmall.png" />
                             <Card.Body className='card-body'>
@@ -47,12 +45,11 @@ const Projects = () => {
                                     Deployed
                                 </Card.Link>
                                 <Card.Link className='link' href='https://honey-badger-bikes.herokuapp.com/fattire/'>
-                                    GitHub Repo
+                                    GitHub
                                 </Card.Link>
                             </Card.Body>
                         </Card> 
-                    </Col>
-                    <Col sm>
+                 
                         <Card className='card-card'>
                             <Card.Img className='card-img' variant="top" src="/assets/astrowxsmall.png" />
                             <Card.Body className='card-body'>
@@ -61,42 +58,41 @@ const Projects = () => {
                                 </Card.Title>
                                 <hr/>
                                 <Card.Text className='card-text'>
-                                    Full-Stack MERN app, integrating multiple API’s to increase chances ofviewing Aurora Borealis and other astronomical events. 
+                                    Full-Stack MERN app, integrating multiple API’s to increase chances of viewing Aurora Borealis and other astronomical events. 
                                 </Card.Text>
                                 <hr/>
                                 <Card.Link className='link' href='https://github.com/mdcoxe/Astro-Wx'>
                                     Deployed
                                 </Card.Link>
                                 <Card.Link className='link' href='https://astro-wx.herokuapp.com/'>
-                                    GitHub Repo
+                                    GitHub
                                 </Card.Link>
                             </Card.Body>
                         </Card> 
-                    </Col> 
-                  </Row>
-                  <Row>
-                   <Col sm>
+                    <br/>
                         <Card className='card-card'>
                             <Card.Img className='card-img' variant="top" src="/assets/expkittensmall.png" />
                             <Card.Body className='card-body'>
                                 <Card.Title className='card-title'>
-                                    Exploding Kittens
+                                    Tweetr/Trittilo
                                 </Card.Title>
                                 <hr/>
                                 <Card.Text className='card-text'>
-                                    Two player card game built to solidify experience using javascript, HTML and CSS.  
+                                    Full-stack, React, Ruby, Ruby-on-Rails, PostgreSQL twitter clone. Built in authentication and authorization as well as initial design utilizing Bootstrap 
                                 </Card.Text>
                                 <hr/>
-                                <Card.Link className='link' href='https://mdcoxe.github.io/explodingkittens/'>
-                                    Deployed
+                                <Card.Link className='link' href='https://tweetr-frontend.herokuapp.com/Feed'>
+                                    Frontend
                                 </Card.Link>
-                                <Card.Link className='link' href='https://github.com/mdcoxe/explodingkittens'>
-                                    GitHub Repo
+                                <Card.Link className='link' href='https://tweetr-backend.herokuapp.com/replies'>
+                                    Backend
+                                </Card.Link>
+                                <Card.Link className='link' href='https://github.com/mdcoxe/tweeter-frontend'>
+                                    GitHub 
                                 </Card.Link>
                             </Card.Body>
                         </Card>
-                    </Col>
-                    <Col sm>    
+                      
                         <Card className='card-card'>
                             <Card.Img className='card-img' variant="top" src="/assets/honeybadgersmall.png" />
                             <Card.Body className='card-body'>
@@ -112,13 +108,12 @@ const Projects = () => {
                                     Deployed
                                 </Card.Link>
                                 <Card.Link className='link' href='https://honey-badger-bikes.herokuapp.com/fattire/'>
-                                    GitHub Repo
+                                    GitHub
                                 </Card.Link>
                             </Card.Body>
                         </Card> 
-                    </Col>
-             
-                    </Row> 
+                   
+               
                     {/* <Card style={{ width: '50%', marginLeft: '16px' }}>
                         <Card.Img variant="top" src="/assets/honeybadgersmall.png" />
                         <Card.Body>
@@ -149,8 +144,8 @@ const Projects = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>   */}
-                    
-            </Container>              
+                </CardDeck>
+            </div>              
         </div>
     )
 }
