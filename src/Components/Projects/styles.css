@@ -1,25 +1,49 @@
 .projects-container {
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     letter-spacing: 4px;
     position: relative;
     width: 100%;
     margin: 0 auto;
     padding: 10%;
-    height: 100vh;
-    background-image: linear-gradient(to bottom right, black, #29683F, #09E05D, #A7F523);
-
+    /* height: 100vh; */
 }
 .project-heading {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 5%;
+    color: white;
 }
 .project-cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    margin: 0 auto;
 }
-.p-card {
+.card-card {
+    width: 300px;
+    margin: 5vw;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 5px 5px 100px darkgreen;
+}
+.card-img {
+    width: 95%;
     margin: 10px auto;
-    width: 25%;
+    border-radius: 4px;
+    border: 1px solid darkgray;
+}
+.card-body {
+    border: 1px solid darkgray;
+    background-color: white;
+    margin: 10px;
+    border-radius: 4px; 
+}
+.card-text{
+    text-align: left; 
+    text-justify: inter-word;
+    line-height: 24px;
+    border-bottom: darkgray;
+}
+.link {
+    letter-spacing: normal;
 }
