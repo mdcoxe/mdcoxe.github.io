@@ -26,6 +26,7 @@ const Experience = () => {
                 </div>
             </div>
             <hr/>
+            
             <div className="linkedin">
                 <div className="box">
                     <a href="http://linkedin.com/in/michaelcoxe" target='blank'>
@@ -37,11 +38,14 @@ const Experience = () => {
                     </a>
                 </div>
                 <div className="box">
+                {/* <a href="http://linkedin.com/in/michaelcoxe" target='blank'> */}
                     <p>
                         Connect with me on LinkedIn
                     </p>
+                {/* </a> */}
                 </div>
             </div>
+           
             <hr/>
             <div className="github">
                 <div className="box">

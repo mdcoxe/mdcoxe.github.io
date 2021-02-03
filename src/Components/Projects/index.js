@@ -101,11 +101,8 @@ const Projects = () => {
                                     Full-stack, React Native, MERN stack, recipe sharing app. Built in authentication and favoriting functionality to save found recipes to the user account.
                                 </Card.Text>
                                 <hr/>
-                                <Card.Link className='link' >
-                                    Not Deployed Yet
-                                </Card.Link>
                                 <Card.Link className='link' href='https://github.com/mdcoxe/recipe-share-app'>
-                                    GitHub
+                                    GitHub Repository
                                 </Card.Link>
                             </Card.Body>
                         </Card> 

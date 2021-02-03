@@ -1,5 +1,5 @@
+![](https://imgur.com/xlqIo9D.png)
 
-## Hi there, I'm Michael 👋
 
 ### About my Portfolio
 It's currently deployed on Gihub Pages.  You can see it here => [MY PORTFOLIO!!](https://mdcoxe.github.io/).
