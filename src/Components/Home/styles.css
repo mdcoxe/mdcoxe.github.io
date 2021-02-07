@@ -1,5 +1,5 @@
 .home-container {
-    scroll-snap-align: center;
+    /* scroll-snap-align: center; */
     background: url('../../resources/aurora1.jpg') repeat scroll center center/cover;
     height: 100vh;
     width: 100%;
@@ -9,7 +9,7 @@
     color:  whitesmoke;
 }
 .typed h1{
-    font-size: x-large;
+    font-size: xx-large;
     text-transform: uppercase;
     font-weight: bold;
     text-align: left;
@@ -18,7 +18,7 @@
 }
 .home-p {
     margin-top: 5px;
-    font-size: small;
+    font-size: large;
     letter-spacing: 3px;
     font-weight: bolder;
     text-align: left;
@@ -34,9 +34,10 @@
     width: 40%;
     align-self: center;
     padding: 15px;
-    margin-left: 10%;
-    margin-top: 5%;
-    background: rgba(76, 175, 80, 0.5)
+    margin: 5% auto;
+    /* margin-left: 10%;
+    margin-top: 5%; */
+    background: rgba(76, 175, 80, 0.65)
 }
 @media only screen and (max-width: 600px) {
     .home-brand {

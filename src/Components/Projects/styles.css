@@ -1,5 +1,5 @@
 .projects-container {
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
     letter-spacing: 4px;
     position: relative;
     width: 100%;
@@ -23,21 +23,21 @@
     min-width:20rem;
     max-width: 20rem;
     margin: 5rem;
-    background-color: white;
-    border-radius: 7px;
-    box-shadow: 5px 5px 100px darkgreen;
+    /* background-color: white; */
+    /* border-radius: 7px; */
+    box-shadow: 5px 5px 100px rgb(118, 243, 118);
 }
 .card-img {
-    width: 95%;
-    margin: 10px auto;
-    border-radius: 4px;
-    border: 1px solid darkgray;
+    width: 100%;
+    /* margin: 10px auto; */
+    /* border-radius: 4px; */
+    /* border: 1px solid darkgray; */
 }
 .card-body {
-    border: 1px solid darkgray;
+    /* border: 1px solid darkgray; */
     background-color: white;
-    margin: 10px;
-    border-radius: 4px; 
+    /* margin: 10px; */
+    /* border-radius: 4px;  */
 }
 .card-text{
     text-align: left; 

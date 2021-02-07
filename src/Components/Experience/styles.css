@@ -1,7 +1,7 @@
 .xp-container{
     background: url('../../resources/aurora.jpg') repeat scroll center center/cover;
     background-color: black;
-    scroll-snap-align: center;
+    /* scroll-snap-align: start; */
     letter-spacing: 4px;
     position: relative;
     width: 100%;
@@ -27,7 +27,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
-    margin: 20px;
+    /* margin: 10px; */
     padding: 20px;
     background-color: rgba(21, 51, 22, 0.7);
     -webkit-transition: background-color 2s ease-out;
@@ -43,7 +43,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 20px;
+    /* margin: 20px; */
     padding: 20px;
     background-color: rgba(21, 51, 22, 0.7);
     -webkit-transition: background-color 2s ease-out;
@@ -63,7 +63,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 20px;
+    /* margin: 20px; */
     padding: 20px;
     background-color: rgba(21, 51, 22, 0.7);
     -webkit-transition: background-color 2s ease-out;
