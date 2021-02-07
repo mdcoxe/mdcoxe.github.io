@@ -1,5 +1,5 @@
 .contacts-container {
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
     letter-spacing: 4px;
     position: relative;
     background-color:  black;
