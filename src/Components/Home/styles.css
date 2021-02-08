@@ -35,8 +35,6 @@
     align-self: center;
     padding: 15px;
     margin: 5% auto;
-    /* margin-left: 10%;
-    margin-top: 5%; */
     background: rgba(76, 175, 80, 0.65)
 }
 @media only screen and (max-width: 600px) {

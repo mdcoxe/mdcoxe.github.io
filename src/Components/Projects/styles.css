@@ -2,7 +2,6 @@
     letter-spacing: 4px;
     position: relative;
     width: 100%;
-    /* margin: 0 auto; */
     padding: 10%;
 }
 .project-heading {
@@ -29,7 +28,7 @@
     width: 21rem;
     min-width:21rem;
     max-width: 21rem;
-    box-shadow: 5px 5px 50px rgb(242, 245, 242);
+    box-shadow: 5px 5px 50px rgb(45, 250, 45);
 }
 .card-img {
     width: 100%;
