@@ -13,9 +13,9 @@ const Skills = () => {
             <h2 className='skills-title'>Backend:</h2>
             <p className="skills-text">NodeJS  |  ExpressJS  | Ruby on Rails</p>
             <h2 className='skills-title'>Tools:</h2>
-            <p className="skills-text">Postman  |  Git  | Github  |  Heroku  </p>
+            <p className="skills-text">Postman  |  Git  | Github  |  Heroku  |  K6  |  Grafana </p>
             <h2 className='skills-title'>Databases:</h2>
-            <p className="skills-text">MongoDB  |  PostgreSQL</p>
+            <p className="skills-text">MongoDB  |  PostgreSQL  |  InfuxDB</p>
             <h2 className='skills-title'>Productivity:</h2>
             <p className="skills-text">Google Docs  |  Zoom  |  Google Meet  |  Slack  |  Discord  |  Microsoft Office</p>
         </div>
