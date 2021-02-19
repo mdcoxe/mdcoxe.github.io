@@ -15,7 +15,7 @@ const Navigate = () => {
                 <Nav.Link href="#skills">Skills</Nav.Link>
                 <Nav.Link href="#experience">Experience</Nav.Link>
                 <Nav.Link href="#contact">Contact Me</Nav.Link>
-                <Nav.Link href="https://docs.google.com/document/d/1WanWzJhTFCNTTmciyj1aZbaTDw87v2SBQkjGJ438oxM/edit?usp=sharing" target="blank">Resume</Nav.Link>
+                <Nav.Link href="https://docs.google.com/document/d/18ZxKX5QY3u4OSzY9R9t7DO3nonCis2-byCmESzpMdDU/edit?usp=sharing" target="blank">Resume</Nav.Link>
             </Nav>
         </Navbar.Collapse>
       </Navbar>

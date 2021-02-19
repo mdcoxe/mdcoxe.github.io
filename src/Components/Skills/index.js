@@ -8,10 +8,10 @@ const Skills = () => {
             <h1 className='skills-heading'>Skills</h1>
             <h2 className='skills-title'>Languages:</h2>
             <p className="skills-text">Javascript  |  HTML  |  CSS  |  Ruby  |  Markdown</p>
-            <h2 className='skills-title'>Frontend:</h2>
-            <p className="skills-text">React  |  React Native  |  Sass  |  Bootstrap  |  React-Bootstrap  </p>
             <h2 className='skills-title'>Backend:</h2>
             <p className="skills-text">NodeJS  |  ExpressJS  | Ruby on Rails</p>
+            <h2 className='skills-title'>Frontend:</h2>
+            <p className="skills-text">React  |  React Native  |  Sass  |  Bootstrap  |  React-Bootstrap  </p>
             <h2 className='skills-title'>Tools:</h2>
             <p className="skills-text">Postman  |  Git  | Github  |  Heroku  |  K6  |  Grafana </p>
             <h2 className='skills-title'>Databases:</h2>

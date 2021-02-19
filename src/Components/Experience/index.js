@@ -21,7 +21,7 @@ const Experience = () => {
                 <div className="box">
 
                 {/* <a href="/MichaelCoxeResume.pdf" download> */}
-                <a href="https://docs.google.com/document/d/1WanWzJhTFCNTTmciyj1aZbaTDw87v2SBQkjGJ438oxM/edit?usp=sharing" target="blank">
+                <a href="https://docs.google.com/document/d/18ZxKX5QY3u4OSzY9R9t7DO3nonCis2-byCmESzpMdDU/edit?usp=sharing" target="blank">
                     <img alt='resume thumbnail' src="/resumeimg.png"/>
                 </a>
                 </div>
