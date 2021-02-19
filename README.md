@@ -1,4 +1,4 @@
-![](https://imgur.com/xlqIo9D.png)
+![](https://imgur.com/3BtqoEh.png)
 
 
 ### About my Portfolio
